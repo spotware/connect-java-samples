@@ -1,4 +1,4 @@
-package com.mycompany.app;
+package com.spotware.connect;
 
 import com.google.protobuf.ByteString;
 import com.google.protobuf.InvalidProtocolBufferException;

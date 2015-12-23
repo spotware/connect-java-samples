@@ -1,6 +1,7 @@
-package com.mycompany.app;
+package com.spotware.connect;
 
 import com.google.protobuf.InvalidProtocolBufferException;
+import com.spotware.connect.OpenApiMessagesFactory;
 import com.xtrader.protocol.proto.commons.ProtoMessage;
 import com.xtrader.protocol.proto.commons.model.ProtoTradeSide;
 import com.xtrader.protocol.proto.openapi.ProtoOAExecutionEvent;

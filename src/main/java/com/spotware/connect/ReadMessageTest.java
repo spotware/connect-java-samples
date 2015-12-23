@@ -1,4 +1,4 @@
-package com.mycompany.app;
+package com.spotware.connect;
 
 import com.google.protobuf.InvalidProtocolBufferException;
 import com.xtrader.protocol.proto.commons.ProtoMessage;

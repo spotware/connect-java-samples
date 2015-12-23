@@ -1,4 +1,4 @@
-package com.mycompany.app;
+package com.spotware.connect;
 
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
