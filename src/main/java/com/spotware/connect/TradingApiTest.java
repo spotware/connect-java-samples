@@ -1,7 +1,6 @@
 package com.spotware.connect;
 
 import com.google.protobuf.InvalidProtocolBufferException;
-import com.spotware.connect.OpenApiMessagesFactory;
 import com.xtrader.protocol.proto.commons.ProtoMessage;
 import com.xtrader.protocol.proto.commons.model.ProtoTradeSide;
 import com.xtrader.protocol.proto.openapi.ProtoOAExecutionEvent;
@@ -23,12 +22,25 @@ import java.util.concurrent.ConcurrentLinkedQueue;
  * Hello world!
  */
 public class TradingApiTest {
-    private static final String API_HOST = "demo-hub-cons.p.ctrader.com";
+    // Sandbox configuration
+    private static final String API_HOST = "sandbox-tradeapi.spotware.com";
     private static final int API_PORT = 5032;
-    private static final String CLIENT_PUBLIC_ID = "1_ub7tb0bh2s0ck8wss84k4c0sww8sskgwc0o0go0o8k48oo4ko";
-    private static final String CLIENT_SECRET = "2uto9lh3qigwg0sg8ococ0wgw8ck8s0wkcocgcoowc4k4gow0c";
+    private static final String CLIENT_PUBLIC_ID = "7_5az7pj935owsss8kgokcco84wc8osk0g0gksow0ow4s4ocwwgc";
+    private static final String CLIENT_SECRET = "49p1ynqfy7c4sw84gwoogwwsk8cocg8ow8gc8o80c0ws448cs4";
     private static final long TRADING_ACCOUNT_ID = 62002; // login 3000041 pass:123456 on http://sandbox-ct.spotware.com
     private static final String TRADING_API_TOKEN = "test002_access_token";
+
+    // Live configuration
+    /*
+    static string apiHost = "tradeapi.spotware.com";
+    static int apiPort = 5032;
+
+    static string clientPublicId = "<your client public ID>";
+    static string clientSecret = "<your client secret>";
+
+    static long testAccountId = <your account ID>;
+    static string testAccessToken = "<your oAuth 2 access token>";
+    */
 
     private static long testPositionId = -1;
     private static long testVolume = 1000000;
