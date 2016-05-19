@@ -32,14 +32,12 @@ public class TradingApiTest {
 
     // Live configuration
     /*
-    static string apiHost = "tradeapi.spotware.com";
-    static int apiPort = 5032;
-
-    static string clientPublicId = "<your client public ID>";
-    static string clientSecret = "<your client secret>";
-
-    static long testAccountId = <your account ID>;
-    static string testAccessToken = "<your oAuth 2 access token>";
+    private static final String API_HOST = "tradeapi.spotware.com";
+    private static final int API_PORT = 5032;
+    private static final String CLIENT_PUBLIC_ID = "<your client public ID>";
+    private static final String CLIENT_SECRET = "<your client secret>";
+    private static final long TRADING_ACCOUNT_ID = 0; //<your account ID>
+    private static final String TRADING_API_TOKEN = "<your oAuth 2 access token>";
     */
 
     private static long testPositionId = -1;
